@@ -1,0 +1,456 @@
+<html>
+<head>
+	<meta charset="utf-8">
+<style>
+	#tx1{
+	color: #000000;
+    font-size: 100px;
+    font-family: Arial;
+    line-height: 0.95;
+    font-weight: 1000;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    padding-left: 90px;
+    padding-top: 15px;
+	}
+	#tx3{
+	color: #000000;
+    font-size: 44px;
+    font-family: Arial;
+    line-height: 1.15;
+    font-weight: 400;
+    opacity: 0.2;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    padding-left: 15px;
+    padding-left: 90px;
+    position: relative;
+    top: -40px;
+	}
+	#tx2{
+	color: #000000;
+    font-size: 22px;
+    font-family: Arial;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    position: relative;
+    top: 55px;
+    left: 810px;
+
+   
+	}
+	#img{
+	position: relative;
+    top: -150px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 810px;
+     border-radius: 50%;
+}
+
+.org {
+    height: 750px;
+	background-color: #e64607;
+}
+.pup{
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	position: relative;
+    top: 10px;
+}
+h1{
+	font-size: 26px;
+	font-family: Arial;
+	text-align: center;
+	color: #000000;
+    line-height: 1.15;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+#lin{
+	padding-left: 550px;
+	
+}
+#skr{
+	position: relative;
+    bottom: 90px;
+}
+#usl{
+font-size: 30px;
+	font-family: Arial;
+	text-align: center;
+	color: #ffffff;
+    line-height: 1.15;
+    font-weight: 400;
+    position: relative;
+    top: 90px;	
+}
+#voz{
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+	color: #ffffff;
+    line-height: 1.15;
+    font-weight: 400;
+     position: relative;
+    top: 100px;
+    opacity: 80%;
+   	
+}
+#imgi{
+	 position: relative;
+    left: 250px;
+    top: 150px;
+}
+.tut{
+    font-size: 18px;
+	font-family: Arial;
+	color: #ffffff;
+    line-height: 1.15;
+    font-weight: 400;
+     position: relative;
+    top: 60px;
+    left: 350px;
+}
+.tuta{
+    font-size: 16px;
+	font-family: Arial;
+	color: #ffffff;
+    line-height: 1.15;
+    font-weight: 400;
+     position: relative;
+     top: 60px;
+    left: 350px;
+    opacity: 75%;
+}
+#rab{
+    font-size: 30px;
+	font-family: Arial;
+	text-align: center;
+	color: black;
+    line-height: 1.15;
+    font-weight: 400;
+    position: relative;
+    top: 90px;
+    
+    
+}
+#sor{
+	font-size: 20px;
+	font-family: Arial;
+	text-align: center;
+	color: black;
+    line-height: 1.15;
+    font-weight: 400;
+     position: relative;
+    top: 100px;
+    opacity: 80%;
+
+}
+.cotic{
+	position: relative;
+	top: 150px;
+	left: 70px;
+	border-radius:50px;
+}
+.tam{
+	position: relative;
+	top: 165px;
+	left: 70px;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+	font-family: Arial;
+	color: #000000;
+    line-height: 1.15;
+    font-weight: 400;
+
+}
+.tama{
+	position: relative;
+	top: 170px;
+	left: 70px;
+	font-size: 14px;
+	font-family: Arial;
+	text-align: center;
+	color: black;
+    line-height: 1.15;
+    font-weight: 400;
+    opacity: 80%;
+     vertical-align: top;
+}
+td{
+	width: 300px;
+	text-align: center;
+    
+}
+.cot {
+	border-radius: 50%;
+
+}
+.blc{
+	height: 330px;
+	position: relative;
+	top: 250px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+#ps{
+	position: relative;
+	top: 50px;
+    font-size: 18px;
+	font-family: Arial;
+	text-align: center;}
+#tel{
+position: relative;
+	top: 70px;
+    font-size: 16px;
+	font-family: Arial;
+	text-align: center;
+}
+.tabl{
+	position: relative;
+	top: 100px;
+	left: 570px;
+	text-align: center;
+}
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Контейнер слайд-шоу */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+   text-align: center;
+}
+
+/* Вперед и назад кнопки */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+    text-align: center;
+}
+
+/* Расположите кнопку "вперед" справа */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+ 
+}
+
+/* При наведении курсора мыши добавьте черный цвет фона с небольшим прозрачным слоем */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Точки/пули/индикаторы */
+.dot {
+	 text-align: right;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Исчезающая анимация */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* На небольших экранах уменьшите размер текста */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+<title>Kotici na dom</title>
+</head>
+<body>
+<div class="bel">
+<div id="tx1">
+Kotici na dom
+</div>
+<div id="tx2">
+Подарим тепло и уют вашему дому и <br>сердцу, пусть и не на долго. Просто закажи <br>котика.
+</div>
+<div id="tx3">
+Нет своего котика?<br>
+Не беда, мы решим эту<br> проблему!
+</div>
+<div id="img">
+<img src="kat.png" height="280px" width="280px">
+</div>	
+<div id="skr">
+<div id="lin" > <br><br><br><br>
+<img src="lin.png">
+</div>
+<h1>Не стоит расстраиваться, если у вас нет своего <br>
+	персонального котейки. Просто арендуйте кота, на<br>
+	 необходимое время.</h1>
+<div id="lin"> 
+<img src="lin.png" >
+</div>	 
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+<img src="cat1.jpg" height="500px" width="750px" alt="cat01" >
+</div>
+
+<div class="mySlides fade">
+ <img src="cat2.jpg" height="500px" width="750px" alt="cat02" >
+</div>
+
+<div class="mySlides fade">
+<img src="cat3.jpg" height="500px" width="750px" alt="cat03" >
+</div>
+
+<div class="mySlides fade">
+  <img src="cat4.jpg"  height="500px" width="750px" alt="cat04">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<div class="org">
+	<div id="usl">Наши услуги</div>
+	<div id="voz">Наши возможности ограниченны лишь вашей фантазией.<br>
+Вот некоторые из них:</div>
+<div class="blok">
+	<div id="imgi"><img src="galk.png"> </div>
+	<div class="tut">Милые действия</div>
+	<div class="tuta"><br>Кусь за нос, тыгы-тык лапками, лежание под боком, милое по-сапывание, или<br>
+	 по-храпывание во сне.</div>
+	 <div id="imgi"><img src="galk.png"> </div>
+	<div class="tut">Весёлые игры</div>
+	<div class="tuta"><br>Бег с палкой, катание мяча по полу, выпрыгивание из-за угла.<br>
+В том числе: валяние на левом боку и валяние на правом углу.</div>
+	 <div id="imgi"><img src="galk.png"> </div>
+	<div class="tut">Маленькие шалости</div>
+	<div class="tuta"><br>Съесть всё съедобное со стола, а потом и с пола. Сбросить вещи, которые<br> лежат не по фен-шую.</div>
+</div>
+</div><br><br><br>
+<div class="prdp">
+	<div id="rab">Наши лучшие работники</div>
+	<div id="sor">Истинные мастера с внушительным опытом и<br> безграничными возможностями</div>
+    <div class="blok2">
+    	<table>
+    	<tr class="cotic">
+    	<td><div id="stepan" class="cot" ><img src="stepan.png" height="200px" width="200px" style="border-radius:100px;"></div></td>
+        <td><div id="semion" class="cot"> <img src="semion.png" height="200px" width="200px" style="border-radius:100px;"></div></td>
+        <td><div id="levi" class="cot"> <img src="levi.png" height="200px" width="200px" style="border-radius:100px;"></div></td>
+        <td><div id="b" class="cot"> <img src="b.png" height="200px" width="200px" style="border-radius:100px;"g></div></td>
+    	</tr>
+    	<tr class="tam">
+    		<td><div>Степан</div></td>
+    		<td><div>Семён</div></td>
+    		<td><div>Леви</div></td>
+    		<td><div>Бабай</div></td>
+    	</tr>
+    	<tr class="tama">
+    	<td><div >эксперт в сбрасывание вещей со <br>стола</div></td>
+    	<td><div>мастер выпрашивания <br>вкусняшек</div></td>
+    	<td><div >магистр "кусей"</div></td>
+    	<td><div>просто милый котик</div></td>
+    	</tr>
+    	</table>
+    </div>
+</div><br><br><br>
+<div class="blc"><br><br><br>
+	<div id="ps">Наши контакты:</div>
+<div id="tel">+12 3456789<br>
+</div>
+<div id="tel">kotici_na_dom@gmail.com <br></div>
+<div id="tel">Pineapple Loft, 22 Pink Street,New York<br></div>
+<div class="tabl">
+<table  style="width: 150px;">
+	<tr>
+	<td><a href="https://www.facebook.com/"><img src="facebook.png" height="50px" width="50px"></td>
+	<td><a href="https://twitter.com/"><img src="twitter.png" height="50px" width="50px" ></td>
+	<td><a href="https://www.instagram.com/"><img src="instagram.png" height="50px" width="50px"></td>
+	</tr>
+</table>
+	</div>
+</div>
+</body>
+</html>
